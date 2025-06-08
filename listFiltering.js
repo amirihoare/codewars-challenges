@@ -9,7 +9,7 @@
 
 function filter_list(l) {
   // Return a new array with the strings filtered out
-  const list = l.filter((number) => Number.isInteger(number))
+  const list = l.filter((num) => Number.isInteger(num))
   
   return list
 }
